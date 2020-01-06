@@ -1,0 +1,9 @@
+1. Install the python library from git
+git clone https://github.com/allfro/pymetasploit
+2. Install the msfrpc to make kali host listen to rpc process
+cd pymetasploit
+python setup.py install
+msfrpcd -P password -n -f -a 127.0.0.1
+3. msfrpc help guide
+msfrpcd -h
+4. the python environment used by the library is python version 2.7
